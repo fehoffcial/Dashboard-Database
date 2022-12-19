@@ -1,6 +1,6 @@
-let initName = document.querySelector("#exampleInputName");
-let initGeneroM = document.querySelector("#exampleInputGenderM");
-let initGeneroF = document.querySelector("#exampleInputGenderF");
-let initControy = document.querySelector("#exampleInputCountry");
-let initEmail = document.querySelector("#exampleInputEmail1");
-let initPassword = document.querySelector("#exampleInputPassword1");
+var initName = document.querySelector("#exampleInputName");
+var initRadio = document.querySelectorAll(".form-group [name=gender]:checked");
+var initControy = document.querySelector("#exampleInputCountry");
+var initEmail = document.querySelector("#exampleInputEmail1");
+var initPassword = document.querySelector("#exampleInputPassword1");
+var initArquivo = document.querySelector("#exampleInputFile");
